@@ -37,6 +37,10 @@ mixin postList()
 //- Post Page
 mixin post(item)
     .post
+        span(style="display:none !important;")
+            span#busuanzi_container_page_pv
+                | 本文总阅读量
+                span#busuanzi_value_page_pv
         article.post-block
             h1.post-title
                 != item.title

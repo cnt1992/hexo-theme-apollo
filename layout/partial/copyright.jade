@@ -2,4 +2,13 @@
     - var currentDate = new Date();
     - var year = currentDate.getFullYear();
     - year = year == theme.startyear ? year : theme.startyear + ' - ' + year;
-    p © #{year} #[a(href=config.url)!= config.author], unless otherwise noted.
+    p © #{year} #[a(href=config.url)!= config.author], Where there is a will there is a way.
+    p(style="display:none !important;")
+        span#busuanzi_container_site_pv
+            | 本站总访问量
+            span#busuanzi_value_site_pv
+            | 次
+        span#busuanzi_container_site_uv
+            | 本站总访客数
+            span#busuanzi_value_site_uv
+            | 人次
