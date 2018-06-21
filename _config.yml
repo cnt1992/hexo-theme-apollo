@@ -1,17 +1,20 @@
 menu:
     Blog: /
     Archive: /archives/
-    Weibo: http://weibo.com/cnt1992
     GitHub: https://github.com/cnt1992
     About: /about/
+    Rss: /atom.xml
 
 favicon: /favicon.png
 logo: /favicon.png
 
 # Comment
 # e.g disqus: seansun
-disqus:
-duoshuo: cnt1992
+gitment: 
+    owner: cnt1992
+    repo: cnt1992.github.io
+    client_id: 09b981847c8a38e58a62
+    client_secret: 1feb91ebe731e68f89af0e6c43928f5f61d0bbf9
 
 # Analytics
 # google-analytics:
